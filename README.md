@@ -1,8 +1,8 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding
 
 Submitted by: **Your Name Here**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **X** hours spent in total
 
@@ -10,10 +10,10 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
@@ -33,6 +33,14 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
+
+This prework builds a dynamic crowdfunding dashboard using vanilla JavaScript. The main challenges completed in `index.js` include:
+
+- **Challenge 3:** Render each game as a card in the games container using DOM manipulation, `for` loops, and template literals.
+- **Challenge 4:** Compute and display summary stats (total contributions, amount raised, number of games) using `reduce()` and `toLocaleString()`.
+- **Challenge 5:** Filter games by funding status with `filter()` and wire up the Unfunded, Funded, and All buttons with event listeners.
+- **Challenge 6:** Add a company description with the total raised, number of games, and unfunded count using template literals and the ternary operator.
+- **Challenge 7:** Sort games by pledged amount and display the top two funded games using `sort()`, destructuring, and the spread operator.
 
 Describe any challenges encountered while building the app.
 
